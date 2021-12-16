@@ -42,8 +42,12 @@
 
 @media only screen and (max-width: 466px) {
 
+    .containerOpcoes ol {
+        width: 95%;
+    }
+
     .app {
-        width: 100%;
+        width: 100vw;
     }
 
     .vetor {

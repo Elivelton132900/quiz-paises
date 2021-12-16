@@ -5,7 +5,7 @@ import './perguntas.css';
 import Resultados from "../resultados/Resultados.js";
 
 export const paisesLista = [
-    'Afghanistan', 'Malaysia', 'Rwanda', 'Mongolia', 'Bahamas', 'Belarus', 'American Samoa', 'French Guiana', 'Saint Barthélemy', 'Belize', 'Suriname', 'Haiti', 'France', 'Chile', 'Venezuela', 'Bolivia', 'Peru', 'Argentina', 'Mexico', 'Spain', 'Colombia', 'Ecuador', 'Puerto Rico', 'Italia', 'Turkey', 'North Korea', 'Germany', 'Russia', 'Thailand', 'Malaysia', 'Austria', 'Greece', 'Canada', 'Poland', 'Macau', 'South Korea', 'Japan'
+    'Afghanistan', 'Malaysia', 'Rwanda', 'Mongolia', 'Bahamas', 'Belarus', 'American Samoa', 'French Guiana', 'Saint Barthélemy', 'Belize', 'Suriname', 'Haiti', 'France', 'Chile', 'Venezuela', 'Bolivia', 'Peru', 'Argentina', 'Mexico', 'Spain', 'Colombia', 'Ecuador', 'Puerto Rico', 'Italia', 'Turkey', 'North Korea', 'Germany', 'Russia', 'Thailand', 'Malaysia', 'Austria', 'Greece', 'Canada', 'Poland', 'South Korea', 'Japan'
 ]
 
 // 1 = bandeira | 2 = capital
