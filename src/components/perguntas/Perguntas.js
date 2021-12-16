@@ -28,6 +28,7 @@ const Perguntas = ({ pegaPerguntas, paisesAuxiliares }) => {
 
     useEffect(() => {
         geraPaises()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
