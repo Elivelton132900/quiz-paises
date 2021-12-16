@@ -1,0 +1,59 @@
+.containerResultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.vetorTrofeu {
+    background-image: url('../../assets/undraw_winners_ao2o\ 2.svg');
+    width: 238px;
+    height: 129px;
+    background-size: cover;
+    margin-top: 49px;
+    margin-bottom: 73px;
+}
+
+.containerResultado h3 {
+    color: rgba(29, 53, 93, 1);
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.containerResultado p {
+    color: #1D355D;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8%;
+    margin-bottom: 64px;
+}
+
+.containerResultado p .pontuacao {
+    font-size: 40px;
+    color: green;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+
+.containerResultado .tentarNovamente {
+    width: 42%;
+    height: 62px;
+    border: 2px solid #1D355D;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: 600;
+    color: #1D355D;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 27px;
+    transition: 350ms ease-in;
+}
+
+.containerResultado .tentarNovamente:hover {
+    background-color: orange;
+    color: white;
+    border: none;
+}

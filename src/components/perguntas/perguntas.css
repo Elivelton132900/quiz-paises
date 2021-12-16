@@ -1,0 +1,120 @@
+.containerPerguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100%; 
+}
+
+.containerPerguntas h2 {
+    font-size: 24px;
+    color: #2F527B;
+    line-height: 36px;
+    font-weight: 900;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.containerOpcoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerOpcoes ol {
+    width: 100%;
+}
+
+
+.opcao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.opcao button {
+    border: 2px solid rgba(96, 102, 208, 0.7);
+    background-color: white;
+    cursor: pointer;
+    width: 90%;
+    height: 56px;
+    border-radius: 12px;
+    color: rgba(96, 102, 208, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: 250ms ease-in;
+}
+
+
+.containerOpcoes ol li button:hover {
+    color: white;
+    background-color: orange;
+}
+
+.opcao button span {
+    margin-right: 20%;
+    margin-left: 2%;
+    font-size: 24px;
+}
+
+.containerOpcoes ol .opcao .acertou {
+    background-color: rgba(96, 191, 136, 1);
+    color: white;
+    border: none;
+    transition: 300ms ease-out;
+}
+
+.containerOpcoes ol .opcao .errou {
+    background-color: rgba(234, 130, 130, 1);
+    color: white;
+    border: none;
+    transition: 300ms ease-out;
+}
+
+.botaoNextContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botaoNext {
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-right: 23px;
+    margin-bottom: 35px;
+    width: 116px;
+    height: 56px;
+    font-size: 18px;
+    color: white;
+    background: #F9A826;
+    box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+    border-radius: 12px;
+    align-self: flex-start;
+    transition: 450ms ease-out;
+}
+
+.all {
+    position: relative;
+    height: 100%;
+}
+
+.bandeira {
+    width: 84px;
+    height: 54px;
+    background-size: cover;
+    display: block;
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    right: 36%;
+}
