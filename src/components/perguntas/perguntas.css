@@ -11,7 +11,7 @@
     line-height: 36px;
     font-weight: 900;
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .containerOpcoes {
@@ -25,7 +25,6 @@
 .containerOpcoes ol {
     width: 100%;
 }
-
 
 .opcao {
     width: 100%;
@@ -116,5 +115,5 @@
     top: 110px;
     margin: 0 auto;
     margin-bottom: 50px;
-    right: 36%;
+    left: -32%;
 }
