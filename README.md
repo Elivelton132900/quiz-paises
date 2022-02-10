@@ -14,7 +14,7 @@
 <h2 align="center" id="visaoGeral">Visão geral</h2>
 <img src='./src/assets/quizGif.gif'>
 <h2 id="sobre" align="center">Sobre o projeto</h2>
-<p>Esse jogo de quiz foi construído através do consumo da api <a href="https://restcountries.com/">Rest Countries</a>. Você pode conferi-lo através desse <a href="quiz-paises.netlify.app">link</a>. Construir esse site foi uma ótima experiência para colococar em prática conceitos de React Hooks e consumo de API utilizando Axios, e através do mesmo fui capaz de melhorar minhas habilidades de Css, React e Redux.</p>
+<p>Esse jogo de quiz foi construído através do consumo da api <a href="https://restcountries.com/">Rest Countries</a>. Você pode conferi-lo através desse <a href="https://quiz-paises.netlify.app/">link</a>. Construir esse site foi uma ótima experiência para colococar em prática conceitos de React Hooks e consumo de API utilizando Axios, e através do mesmo fui capaz de melhorar minhas habilidades de Css, React e Redux.</p>
 
 <h2 id="recursos" align="center">Recursos</h2>
 <p>Essa aplicação foi criada como uma submissão para o desafio do site <a href="https://devchallenges.io/challenges">DevChallenges</a>. O desafio era construir uma aplicação para completar as histórias do usuário.</p>
