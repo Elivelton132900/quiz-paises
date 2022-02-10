@@ -5,7 +5,7 @@ import './perguntas.css';
 import Resultados from "../resultados/Resultados.js";
 
 export const paisesLista = [
-    'Afghanistan', 'Malaysia', 'Rwanda', 'Mongolia', 'Bahamas', 'Belarus', 'American Samoa', 'French Guiana', 'Saint Barthélemy', 'Belize', 'Suriname', 'Haiti', 'France', 'Chile', 'Venezuela', 'Bolivia', 'Peru', 'Argentina', 'Mexico', 'Spain', 'Colombia', 'Ecuador', 'Puerto Rico', 'Italia', 'Turkey', 'North Korea', 'Germany', 'Russia', 'Thailand', 'Malaysia', 'Austria', 'Greece', 'Canada', 'Poland', 'South Korea', 'Japan'
+    'Afghanistan', 'Malaysia', 'Rwanda', 'Mongolia', 'Bahamas', 'Belarus', 'American Samoa', 'French Guiana', 'Saint Barthélemy', 'Belize', 'Suriname', 'Haiti', 'France', 'Chile', 'Venezuela', 'Bolivia', 'Peru', 'Argentina', 'Mexico', 'Spain', 'Colombia', 'Ecuador', 'Puerto Rico', 'Italia', 'Turkey', 'North Korea', 'Germany', 'Russia', 'Thailand', 'Malaysia', 'Austria', 'Greece', 'Canada', 'Poland', 'South Korea', 'Japan', 'Sweden', 'Albania', 'Vanuatu', 'Mauritius', 'Portugal', 'Ivory Coast', 'Georgia', 'Bhutan', 'Namibia', 'Netherlands', 'Uruguay', 'Belgium', 'Guernsey', 'United States Virgin Islands', 'Uganda', 'Liechtenstein', 'Guinea-Bissau', 'Cuba', 'Montenegro', 'Norway', 'Saint Vincent and the Grenadines', 'Mayotte', 'Latvia', 'Paraguay', 'Jersey', 'Laos', 'Qatar', 'Dominican Republic', 'Bouvet Island', 'Slovakia', 'Bosnia and Herzegovina', 'Panama', 'Barbados', 'Cambodia', 'Antigua and Barbuda'
 ]
 
 // 1 = bandeira | 2 = capital
@@ -74,9 +74,6 @@ const Perguntas = ({ pegaPerguntas, paisesAuxiliares }) => {
     }
 
     const renderizaTudo = () => {
-
-
-
         if (paisPrincipal !== undefined && paisPrincipal.data !== undefined) {
             const tipoDePergunta = tipo === 1 ? `Essa bandeira é de qual país?` : `${paisPrincipal.data[0].capital} é capital de que país?`
 
@@ -143,7 +140,13 @@ const Perguntas = ({ pegaPerguntas, paisesAuxiliares }) => {
         const botoes = document.querySelectorAll('.opcao button')
         botoes.forEach(el => el.hasAttribute('class', 'errou') ? el.classList.remove('errou') : el.classList.add('botao'))
         botoes.forEach(el => el.hasAttribute('class', 'acertou') ? el.classList.remove('acertou') : el.classList.add('botao'))
-        totalPartidas.current + 1 === 10 ? botaoNext.current.textContent = 'Ver resultados' : botaoNext.current.textContent = 'Próximo'
+        totalPartidas.current + 1 === 10 ? animacaoBotaoProximo() : botaoNext.current.textContent = 'Próximo'
+    }
+
+    const animacaoBotaoProximo = () => {
+        setTimeout(() => {
+            botaoNext.current.textContent='Ver resultados'
+        }, 460);
     }
 
     const botaoTentarNovamente = () => {
